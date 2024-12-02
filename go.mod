@@ -1,4 +1,4 @@
-module v1
+module github.com/jesslyn-ctrl/go-objstorage
 
 go 1.23.1
 

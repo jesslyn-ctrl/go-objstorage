@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"v1/storage/gcs"
-	"v1/storage/minio"
-	_types "v1/storage/types"
+	"github.com/jesslyn-ctrl/go-objstorage/storage/gcs"
+	"github.com/jesslyn-ctrl/go-objstorage/storage/minio"
+	_types "github.com/jesslyn-ctrl/go-objstorage/storage/types"
 )
 
 // NewStorageClient initializes and returns either a GCS or MinIO client based on the config.
